@@ -1,0 +1,6 @@
+{
+  "name": "Oracle DBMS Maze Game",
+  "tagline": "oracle dbms, sql, maze game, game",
+  "body": "# ORACLE_DBMS_MAZE_GAME\r\n\r\nYou just need to execute all the statements<br/><br/>\r\n\r\nset serverout on;<br/><br/>\r\n\r\ncall registerPlayer('username', 'password');<br/>\r\ncall login('username', 'passoword');<br/>\r\ncall showPlayer(1);<br/>\r\ncall goDown(1);<br/>\r\ncall goUp(1);<br/>\r\ncall goLeft(1);<br/>\r\ncall goRight(1);<br/><br/>\r\n\r\ncall logout(1);<br/><br/>\r\n\r\ntriggers:<br/><br/>\r\n\r\nupdateScoreTrigger1<br/>\r\nupdateScoreTrigger2\r\n\r\nYou are p:player.<br/>\r\nEat a : apple / m:mango to increase score. Stage will automatically change when stamping g:goal.<br/>\r\n\r\n\r\n# Contributer and Contact\r\n\r\nChrist Prateek Prasanna Xaxa<br/>\r\ncppxaxa@gmail.com",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
