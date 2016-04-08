@@ -1,23 +1,23 @@
 # ORACLE_DBMS_MAZE_GAME
 
-You just need to execute all the statements
+You just need to execute all the statements<br/><br/>
 
-set serverout on;
+set serverout on;<br/><br/>
 
-call registerPlayer('username', 'password');
-call login('username', 'passoword');
-call showPlayer(1);
-call goDown(1);
-call goUp(1);
-call goLeft(1);
-call goRight(1);
+call registerPlayer('username', 'password');<br/>
+call login('username', 'passoword');<br/>
+call showPlayer(1);<br/>
+call goDown(1);<br/>
+call goUp(1);<br/>
+call goLeft(1);<br/>
+call goRight(1);<br/><br/>
 
-call logout(1);
+call logout(1);<br/><br/>
 
-triggers:
+triggers:<br/><br/>
 
-updateScoreTrigger1
+updateScoreTrigger1<br/>
 updateScoreTrigger2
 
-You are p:player.
-Eat a : apple / m:mango to increase score. Stage will automatically change when stamping g:goal.
+You are p:player.<br/>
+Eat a : apple / m:mango to increase score. Stage will automatically change when stamping g:goal.<br/>
